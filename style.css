@@ -365,10 +365,10 @@ footer a:hover, footer a:active {
   margin: 15px 0px;
 }
 #instructions h2 {
-  color: red;
+  color: black;
 }
 #instructions p {
-  color: green;
+  color: black;
 }
 #instructions ol {
   padding: 15px;
@@ -377,10 +377,10 @@ footer a:hover, footer a:active {
   counter-increment: list;
   list-style-type: none;
   position: relative;
-  color: green;
+  color: black;
 }
 #instructions li:before {
-  color: blue;
+  color: black;
   content: counter(list) ".";
   left: -30px;
   position: absolute;
