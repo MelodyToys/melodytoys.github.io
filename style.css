@@ -302,8 +302,8 @@ footer a:hover, footer a:active {
 #information {
   display: none;
   width: 75%;
-  background-color: gray;
-  padding: 0px 15px 15px;
+  background-color: black;
+  padding: 0px 5px 5px;
   border-radius: 10px;
   position: absolute;
   top: 50px;
@@ -339,13 +339,13 @@ footer a:hover, footer a:active {
 }
 
 #close {
-  color: yellow;
+  color: white;
 }
 
 #instructions {
   background-color: white;
   border-radius: 8px;
-  padding: 15px;
+  padding: 5px;
   box-shadow: 2px 2px 5px var(--dark-gray);
   max-height: 70vh;
   overflow-y: auto;
