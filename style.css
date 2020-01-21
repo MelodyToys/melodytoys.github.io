@@ -114,14 +114,6 @@ body {
   border: 12px solid var(--dark-gray);
 }
 
-#github {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
 .imgrow {
   display: flex;
   padding-top: 10px;
