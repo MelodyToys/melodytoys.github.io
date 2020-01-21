@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
 
+<head>
+  <meta charset="UTF-8">
+  <title>Melody Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Changa+One|Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">  
+</head>
+
+<body>
+
+  <head>
+  <title>Melody Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="logo-header">
+    Something exciting is<br> coming soon !
+  </div>
+  <div id="info-div">
+    <i id="info" class="fas fa-info-circle fa-2x"></i>
+  </div>
+  <div id="simon">
+    <div class="row">
+      <div id="green" class="pad green-off disabled"></div><div id="red" class="pad red-off disabled"></div>
+    </div>
+    <div class="row">
+      <div id="yellow" class="pad yellow-off disabled"></div><div id="blue" class="pad blue-off disabled"></div>
+    </div>
+    
+    <div id="center">
+      <div id="name">Melody</div>
+      <div id="sound-level" class="controls">
+       <div>
+          <div class="inline-block">ON&nbsp;&nbsp;</div><div class="inline-block">&nbsp;OFF</div>
+          <div id="sound-box" class="switch-box small-switch-box">
+            <div id="sound" class="switch"></div>
+          </div>
+          <div>
+            Sound
+          </div>
+        </div>
+        <div>
+          <div class="inline-block">1</div><div class="inline-block">2</div><div class="inline-block">3</div>
+          <div id="level-box" class="switch-box big-switch-box">
+            <div id="level" class="switch"></div>
+          </div>
+          <div>
+            Level
+          </div>
+        </div>
+        <div>
+          <div class="inline-block">10</div><div class="inline-block">20</div><div class="inline-block">30</div>
+          <div id="rounds-box" class="switch-box big-switch-box">
+            <div id="rounds" class="switch"></div>
+          </div>
+          <div>
+            Rounds
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <div>
+          <div id="count" class="count-off">- -</div>
+          Count
+        </div>
+        <div style="text-align:center">
+          <div id="start-led" class="led led-off"></div>
+          <button id="start" class="button"></button>
+          Start
+        </div>
+        <div style="text-align:center">
+          <div id="strict-led" class="led led-off" style="margin-left: 0px"></div>
+          <button id="strict" class="button"></button>
+          Strict
+        </div>
+      </div>
+      <div class="controls">
+        <div class="power-div">
+          <div class="power-on-off">ON</div>
+          <div id="power-box" class="switch-box small-switch-box">
+            <div id="power" class="switch"></div>
+          </div>
+          <div class="power-on-off">OFF</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="logo-footer">
+    www.melody.toys
+  </div>
+  <div id="github">
+    <a target="_blank" href="https://github.com/MelodyToys"><img src="media/github.svg"></a>
+  </div>
+    <footer>
+    </footer>
+  
+    <div id="information">
+      <div id="close-div">
+        <i id="close" class="fas fa-times"></i>
+      </div>
+      <div id="instructions">
+        <h1><span>How To Play Melody</span></h1><hr>
+        <h2>Object of the Game</h2>
+        <p>Correctly repeat a sequence of colors.</p><br>
+        <h2>Instructions</h2>
+        <ol>
+          <li>Turn on the game, and select the level and the number of rounds you would like to  play. Level 1 is the slowest, and level 3 is the fastest.</li>
+          <li>Press start to begin playing.</li>
+          <li>Simon will display the first color.</li>
+          <li>Repeat the color by pressing the same color.</li>
+          <li>Simon will repeat the color and add a new color on each round.</li>
+          <li>Continue to repeat the colors in the correct sequence.</li>
+          <li>If you press an incorrect color in the sequence, Simon will buzz an error sound, and repeat the sequence again if strict mode has not been selected. If strict mode has been selected the game will end on an incorrect color press, and will restart with a new sequence.</li>
+          <li>The game will continue until the rounds selected are over.</li>
+          <li>The game speeds up as the sequence grows.</li>
+        </ol><br>
+        <h2>How to Win</h2>
+        <p>To win the game, repeat the sequence of colors in the correct order, until the number of rounds are over.</p><br>
+        <p>       
+          <span>Designed and coded by</span><br>
+          <a target="_blank" href="https://github.com/atiyahaider/Simon-Game">Atiya Haider</a>
+        </p>
+      </div>
+    </div>
+</body>
+  <script src='./jquery.min.js'></script>
+
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
