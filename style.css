@@ -115,14 +115,24 @@ body {
 }
 
 #github {
-  padding-top: 30px;
-  width: 45px;
-  height: 45px;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.imgrow {
+  display: flex;
+  padding-top: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.imgcol {
+padding-left: 10px;
 }
 
 #name {
@@ -132,12 +142,10 @@ body {
 }
 
 #logo-footer {
-  margin: auto;
   font-family: 'Changa One', cursive;
   font-size: 3.5rem;
   padding-top: 40px;
   text-align: center;
-  position: relative;
 }
 
 #logo-header {
