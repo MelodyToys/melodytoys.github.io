@@ -10,14 +10,14 @@ const sounds = [
   new Audio('media/Error-sound.mp3'),
   new Audio('media/Game_Win.mp3')
 ];
-const Rounds = 20;
+const Rounds = 10;
 const LedOnDuration = 200;
 const CountDisplayDuration = 150;
 
 let simon = {
   power: false,
   sound: true,
-  level: 1,
+  level: 3,
   rounds: Rounds,
   strict: false,
   count: 0,
